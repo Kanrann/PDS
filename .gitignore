@@ -1,0 +1,22 @@
+# 排除虚拟环境
+.venv/
+venv/
+env/
+
+# 排除 Python 缓存
+__pycache__/
+*.py[cod]
+
+# 排除数据和模型 (AI 项目建议)
+data/
+models/
+*.pt
+*.pth
+*.safetensors
+*.bin
+
+# 排除系统与 IDE 临时文件
+.vscode/
+.idea/
+.DS_Store
+structure.txt
