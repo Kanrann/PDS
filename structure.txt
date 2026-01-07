@@ -1,0 +1,35 @@
+参考结构
+D:.
+|   .DS_Store
+|   .gitignore
+|   readme.md
+|   structure.txt
+|   
++---data
+|   |   all_batch_ids.txt
+|   |   domain_chunks.jsonl
+|   |   domain_knowledge_base.jsonl
+|   |   generation.log
+|   |   sensor_physics_sft.jsonl
+|   |   
+|   \---mineru_results
+\---scripts
+    |   .DS_Store
+    |   chunk.py
+    |   clean_for_benchmark.py
+    |   FENZU.py
+    |   washing.py
+    |   
+    +---check
+    |       check_models.py
+    |       check_quality.py
+    |       
+    +---mineru
+    |       mineru_client.py
+    |       mineru_downloader.py
+    |       
+    \---run
+            data_structure_pinns1.1.py
+            run_hyper_speed.py
+            sweet.py
+            

@@ -1,6 +1,6 @@
-DSP是第一版留档
+欢迎使用PDS。他进行了严格的PINNS设计，以及加入了质量检测以及甜蜜点检测。
 运行清根据情况使用DSP或者RHS
-新增了sweet.py。先使用DSP获得一些结果之后计算甜蜜点
+新增了sweet.py。先使用DSP获得一些结果之后计算甜蜜点。
 下面是使用顺序
 fenzu
 minerclient
